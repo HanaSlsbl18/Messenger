@@ -13,6 +13,7 @@
 		C587605A29229C960079F5AE /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C587605929229C960079F5AE /* VideoPlayerViewController.swift */; };
 		C587605C29229CDA0079F5AE /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C587605B29229CDA0079F5AE /* NewConversationViewController.swift */; };
 		C587605E29229CE30079F5AE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C587605D29229CE30079F5AE /* ProfileViewController.swift */; };
+		C58760652923CD460079F5AE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58760642923CD460079F5AE /* Extensions.swift */; };
 		C5AADA502902624500D587B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AADA4F2902624500D587B1 /* AppDelegate.swift */; };
 		C5AADA522902624500D587B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AADA512902624500D587B1 /* SceneDelegate.swift */; };
 		C5AADA542902624500D587B1 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AADA532902624500D587B1 /* ConversationsViewController.swift */; };
@@ -28,6 +29,7 @@
 		C587605929229C960079F5AE /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		C587605B29229CDA0079F5AE /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		C587605D29229CE30079F5AE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C58760642923CD460079F5AE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C5AADA4C2902624500D587B1 /* Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5AADA4F2902624500D587B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5AADA512902624500D587B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,9 +54,8 @@
 		C587604D292299400079F5AE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C587605F2922A98D0079F5AE /* Login */,
 				C5AADA532902624500D587B1 /* ConversationsViewController.swift */,
-				C587605329229C150079F5AE /* LoginViewController.swift */,
-				C587605529229C1E0079F5AE /* RegisterViewController.swift */,
 				C587605729229C580079F5AE /* PhotoViewerViewController.swift */,
 				C587605929229C960079F5AE /* VideoPlayerViewController.swift */,
 				C587605B29229CDA0079F5AE /* NewConversationViewController.swift */,
@@ -91,6 +92,7 @@
 			children = (
 				C5AADA4F2902624500D587B1 /* AppDelegate.swift */,
 				C5AADA512902624500D587B1 /* SceneDelegate.swift */,
+				C58760642923CD460079F5AE /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -102,6 +104,15 @@
 				C5AADA5A2902624700D587B1 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C587605F2922A98D0079F5AE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C587605329229C150079F5AE /* LoginViewController.swift */,
+				C587605529229C1E0079F5AE /* RegisterViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		C5AADA432902624500D587B1 = {
@@ -209,6 +220,7 @@
 				C587605C29229CDA0079F5AE /* NewConversationViewController.swift in Sources */,
 				C5AADA542902624500D587B1 /* ConversationsViewController.swift in Sources */,
 				C587605A29229C960079F5AE /* VideoPlayerViewController.swift in Sources */,
+				C58760652923CD460079F5AE /* Extensions.swift in Sources */,
 				C5AADA502902624500D587B1 /* AppDelegate.swift in Sources */,
 				C587605E29229CE30079F5AE /* ProfileViewController.swift in Sources */,
 				C5AADA522902624500D587B1 /* SceneDelegate.swift in Sources */,
