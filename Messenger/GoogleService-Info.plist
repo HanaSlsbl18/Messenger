@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>470581906296-a2e07knspgeh0rbigtd217b1ej25irpk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.470581906296-a2e07knspgeh0rbigtd217b1ej25irpk</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCcIbsXLlX1_TNJA50vbe--IF2a0nnjOGU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>470581906296</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Hana-Salsabila.Messenger</string>
+	<key>PROJECT_ID</key>
+	<string>messenger-74536</string>
+	<key>STORAGE_BUCKET</key>
+	<string>messenger-74536.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:470581906296:ios:c85b4815a92afffe29d68d</string>
+</dict>
+</plist>
